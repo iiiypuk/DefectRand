@@ -52,6 +52,13 @@ namespace DefectRand
             this.ClientSize = new System.Drawing.Size(288, 266);
             this.Controls.Add(this.textField);
             this.Controls.Add(this.randButton);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            // TODO: Change icon in taskbar without resx file
+            // this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            // Icon appIcon = new Icon("./app.ico");
+            // this.Icon = ((System.Drawing.Icon)(appIcon));
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DefectRand - 1.0";
