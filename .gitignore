@@ -1,2 +1,3 @@
-DefectRand.exe
+*.exe
 !dist/DefectRand.exe
+!dist/DefectRand_net2.0.exe
